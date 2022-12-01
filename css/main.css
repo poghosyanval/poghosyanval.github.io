@@ -1,0 +1,183 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #201b2d;
+	font-size: 15px;
+	padding: 0;
+	margin: 0;
+}
+
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+
+	
+}
+
+h2{
+	text-align: center;
+}
+
+p {
+	line-height: 1.65em;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.header {
+	background: rgb(77,191,254);
+
+	background: linear-gradient(90deg, rgba(77,191,254,1) 35%, rgba(55,143,217,1) 100%);
+	padding-top: 100px;
+	padding-bottom: 225px;
+	color: #fff;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.offer {
+	margin-top: 176px;
+	width: 490px;
+}
+
+.title {
+	font-size: 33px;
+}
+
+.title span {
+	font-size: 59px;
+}
+
+.intro {
+	margin-bottom: 37px;
+	margin-top: 30px;
+	width: 380px;
+}
+
+.btn {
+	font-family: 'Ubuntu', sans-serif;
+	background: #ffd429;
+	color: black;
+	display: block;
+	width: 205px;
+	padding: 19px 0;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.5s ease;
+}
+
+.btn:hover {
+	background: #d9860e;
+}
+
+.desktop {
+	margin-top: 72px;
+}
+
+.learn {
+	padding-top: 108px;
+	padding-bottom: 120px;
+}
+
+.section-title {
+	font-size: 30px;
+	margin-bottom: 50px;
+}
+
+.skills {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 70px;
+}
+
+.skill {
+	width: 350px;
+	background: url('../img/icon1.jpg') no-repeat left top;
+	padding-left: 100px;
+}
+
+.skill-title {
+	font-size: 18px;
+	text-align: center;
+}
+
+.skill-text {
+	margin-top: 7px;
+	text-align: center;
+	
+}
+
+.skill-free {
+	width: 380px;
+	background: url('../img/icon2.jpg') no-repeat left top;
+}
+
+.skill-change {
+	background: url('../img/icon3.jpg') no-repeat left top;
+}
+
+.mail {
+	background: #ecf3f8;
+	padding-top: 173px;
+	padding-bottom: 190px;
+}
+
+.form {
+	margin-top: 40px;
+	width: 350px;
+	margin: auto;
+	
+
+}
+
+.input {
+	width: 100%;
+	border: 1px solid #bfb8d1;
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+	height: 45px;
+	padding-left: 30px;
+	margin-top: 10px;
+	outline: none;
+}
+
+.btn-form {
+	font-family: 'Ubuntu', sans-serif;
+	background: #ffd429;
+	color: black;
+	border: 0;
+	cursor: pointer;
+	width: 100%;
+	border: 1px solid #bfb8d1;
+	font-size: 15px;
+	height: 45px;
+	margin-top: 10px;
+	transition: all 0.5s ease;
+}
+.btn-form:hover{
+	background: #d9860e;
+
+}
+
+.footer {
+	padding: 33px 0;
+	background: #164d7a;
+}
+
+.credits {
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+	margin: 0;
+	padding: 23px;
+
+}

@@ -41,11 +41,6 @@ p {
     justify-content: center;
 }
 
-.offer {
-	margin-top: 176px;
-	width: 490px;
-}
-
 .title {
 	font-size: 33px;
 }
@@ -180,6 +175,9 @@ p {
 
 }
 @media screen and (max-width:768px){
+	.desktop{
+		width: 100%;
+	}
 	.learn{
 		display: flex;
 		justify-content: center;
@@ -190,10 +188,6 @@ p {
 		justify-content: center;
 		flex-wrap: wrap;
 	}
-	/*.section-title{
-		display: flex;
-		flex-direction: flex-start;
-	}*/
 	.skills{
 		flex-direction: column;
 		justify-content: space-around;
